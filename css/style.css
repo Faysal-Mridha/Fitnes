@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    transition: .5s;
+}
+a{
+   text-decoration: none !important;
+    color: #555;
+}
+li{
+    list-style: none;
+}
+
+.header{
+background: radial-gradient(#fff,#ffd6d6);
+}
+
+.logo{
+    cursor: pointer;
+}
+ .navbar nav ul li{
+    list-style: none ;
+    display: inline-block;
+    margin: 0px 10px;
+}
+.slider{
+    margin-top: 70px !important;
+    padding-bottom: 25px !important;
+}
+.col h2{
+font-size: 50px;   
+line-height: 60px; 
+}
+@media(max-width:768px){
+    .col h2{
+        font-size: 35px;
+        line-height: 1.3;
+    }
+}
+.btn1{
+    background: #ff623b;
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 25px;
+    margin: 0px 10px;
+transition: .3s;
+}
+
+.btn1:hover{
+    background: #563434;
+    color: white;
+}
+
+/*=============catagorich seciton code===============*/
+section#catagarich {
+    margin: 70px 0px;
+}
+
+.row.catagarich-img .col-md-4 {
+    margin-bottom: 30px;
+}
+.row.catagarich-img .col-md-4:last-child{
+    margin-bottom: 0px;
+}
+
+/*================
+Prodect ==============*/
+.title{
+    color: #555;
+    position: relative;
+    padding-bottom: 5px;
+}
+.title::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translateX(-50%);
+    height: 3px;
+    width: 90px;
+    background: #ff523b;
+    border-radius: 15px;
+}
+.prodect{
+    margin: 70px 0px;
+}
+.prodect-details h4{
+    color: #555;
+}
+.prodect-details p{
+    font-size: 14px;
+}
+
+ .rating{
+    color: #ff523b;
+}
+.prodect .col-md-3:hover{
+    transform: translateY(-9px);
+    transition: .5s;
+}
+
+
+/* ==============offer================= */
+#offer{
+    background: radial-gradient(#fff,#ffd6d6);
+margin-top: 80px;
+
+padding: 30px 0px;
+}
+.offer-text{
+    margin-top: 10%;
+}
+#offer small{
+    color: #555;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* ==========Testimonial==================== */
+
+#testimonial{
+    margin-top: 70px;
+}
+.single-testimonial{
+    padding: 30px 20px;
+    cursor: pointer;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+
+}
+.single-testimonial p{
+    font-size: 12px;
+    color:#777;
+}
+.single-testimonial h3{
+    font-weight: 600;
+    font-size: 16px;
+    color: #555;
+}
+.single-testimonial img{
+    width: 90px;
+    border-radius: 50%;
+}
+
+.single-testimonial:hover{
+transform: translate(-10px, -10px);
+transition: .5s;
+}
+.fa-quote-left{
+    color: #ff523b;
+    font-size:34px;
+
+}
+
+
+/* ==============brand============== */
+
+#brand-logo{
+    margin: 100px auto;
+}
+
+.logo-collum {
+    width: 160px;
+    display: inline;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.logo-collum img{
+   filter: grayscale(100%);
+}
+.logo-collum  img:hover{
+    filter: grayscale(0);
+    transition: .5s;
+ }
+.logo-collum:last-child {
+    margin-right: 0px;
+}
+
+
+
+/* ==============footer===================== */
+
+footer{
+   background: black;
+   color:#8a8a8a;
+   padding: 35px 0px;
+
+}
+footer p{
+    color: #8a8a88;
+}
+footer h3{
+    color: white;
+    margin-bottom: 10px;
+}
+footer .img img{
+    width: 180px;
+    margin-bottom: 15px;
+}
+.app-logo{
+   margin-top: 20px;
+}
+.app-logo img{
+    width: 119px;
+    margin-right: 6px;
+}
+
+
+
+
+/* =============another pages===================== */
+.myproduct{
+    padding: 20px 15px;
+    justify-content: space-between;
+}
+
+select{
+    border: 1px solid #ff523b;
+    padding: 5px 15px;
+}
+select:focus{
+    outline: none;
+}
+
+/* ------------single prodect details code--------------------- */
+
+
+#product-ditails{
+    margin-top: 80px;
+}
+#single-product-img{
+    margin-bottom: 10px;
+}
+.single-product-details h4{
+font-weight: bold;
+font-size: 22px;
+margin: 26px 0px;
+font-family: arial black;
+}
+
+.single-product-details select{
+    display: block;
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+.single-product-details input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    border: 1px solid #ff523b;
+}
+input:focus{
+    outline: none;
+}
+
+.single-product-details .fa{
+    color: #ff523b;
+    margin-left: 10px;
+}
+
+
+/* ----------small img row----------------- */
+.small-img-row{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+/* ==================card code==================== */
+
+td input{
+    width: 40px;
+    height: 30px;
+}
+.card-info p{
+    color: #292525;
+    font-weight: normal;
+    font-size: 10px;
+}
+td small{
+    font-weight: bold;
+    font-size: 12px;
+}
+td a{
+    color: #ff523b;
+}
+
+/* ============from=============== */
+#form{
+    padding: 40px 0;
+    background: radial-gradient(#fff,#ffd6d6);
+}
+.form-cotainer{
+    width: 300px;
+    height: 400px;
+    box-shadow: 0px 0px 20px #0f0f0f;
+    background-attachment: #fff;
+    position: relative;
+    text-align: center;
+    padding: 20px 0px;
+    margin: auto;
+    overflow: hidden;
+
+} 
+
+.form-cotainer span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+
+.form-btn{
+    display: inline-block;
+}
+
+.form-cotainer form{
+    position: absolute;
+    max-width: 300px;
+    padding: 0 20px;
+    top: 130px;
+    transition: all 1s;
+
+}
+form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+
+form .btn3{
+    width: 100% !important;
+
+    border: none !important;
+    border-radius: 5px !important;
+    cursor: pointer;
+    margin: 10px 0;
+    background: #ff623b;
+    transition: .5s;
+}
+form .btn3:focus{
+    outline: none;
+}
+form a{
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: arial;
+}
+#login{
+    left: -300px;
+}
+#register{
+    left: 0;
+}
+#indicator{
+    width: 100px;
+    height: 4px;
+    border: none;
+    background: #ff523b;
+    margin-top: 8px;
+    transform: translateX(152px);
+    transition: all 1s;
+}
